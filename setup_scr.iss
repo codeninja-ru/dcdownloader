@@ -3,11 +3,11 @@
 
 [Setup]
 AppName=Data Cod Downloader
-AppVerName=Data Cod Downloader 1.26
+AppVerName=Data Cod Downloader 1.29
 AppPublisher=Майоров Виталий
-AppPublisherURL=http://www.mayorov.info/
-AppSupportURL=http://www.mayorov.info/
-AppUpdatesURL=http://www.mayorov.info/
+AppPublisherURL=http://code.google.com/p/dcdownloader/
+AppSupportURL=http://code.google.com/p/dcdownloader/
+AppUpdatesURL=http://code.google.com/p/dcdownloader/
 DefaultDirName={pf}\DCodDownloader
 DefaultGroupName=Data Cod Downloader
 OutputBaseFilename=setup
