@@ -1,6 +1,0 @@
-<b>Лицензия:</b> <link>GNU General Public License v3</link><br>
-<b>Сайт программы:</b>  <link>http://code.google.com/p/dcdownloader/</link><br>
-<b>Автор:</b>  Майоров Виталий <link>vitaliy@mayorov.info</link><br>
-<b>Справка:</b> <link>FAQ</link><br>
-<br>
-Если данная программа сэкономила ваше время и спасла N-ое количество нервных клеток, <link>пожертвуйте</link> автору немного денег на пиво. 
