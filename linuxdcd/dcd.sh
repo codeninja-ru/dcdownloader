@@ -28,15 +28,3 @@ do
 		del_url_from_file
 	fi
 done
-
-#выдергиваем урл
-#expr match "20. Emperor Disqualification - Two Traitors - http://dsv.data.cod.ru/514725" '[^S]*\(http:\/\/[a-z0-9]*.data.cod.ru\/[0-9]*\)'
-
-#парсим страницу
-#wget -q -O - http://dsv.data.cod.ru/514725 | egrep '<p align="center"><a href="(http:\/\/[a-z0-9.]*data.cod.ru\/\?[^"]*)'
-
-#дергаем ссылку на файл
-#get -q -O - http://dsv.data.cod.ru/514725 | egrep -o '(http:\/\/[a-z0-9.]*data.cod.ru\/\?[^"]*)'
-
-# удаляем строку из файла
-#sed -e "s/^[^$]*$URL[^$]*//" list_bk.txt
