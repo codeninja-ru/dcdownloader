@@ -4,8 +4,7 @@
 URL_LIST=$(cat list.txt | egrep -o "http:\/\/[a-z0-9]+.data.cod.ru\/[0-9]*" | uniq -u )
 
 function del_url_from_file {
-	EURL=$( echo $URL | sed -e "s/\///" ) # ссылка с экранированными символами для регулярки 
-        sed -e "s/^[^$]*$EURL[^$]*$//" -i list.txt # удаляем строку с нашим урлом
+	cat list.txt | grep -v "$URL" > list.txt # удаляем строку с нашим урлом
 }
 
 for URL in $URL_LIST
